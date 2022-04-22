@@ -1,0 +1,143 @@
+.ahem {
+	display: none;
+}
+
+body { 
+	background-color: #f5f5f5;
+	background: url(http://www.carpathianhighlands.com/Index_files/image001.jpg);
+	color: #000;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 101%; /* for IE bug*/
+	margin: 0.5em;
+	padding: 0;
+} 
+
+/* footer */
+
+div#footer { 
+	background: #006400;
+	border: 1px solid;
+	clear: both;
+	color: #fff;
+	font-size: 90%;
+	text-align: center;
+}
+#footer a {
+	background: transparent;
+	color: #fff;
+}	
+
+/* main, to the right */
+div#main {
+/*	background: transparent; */ /* changed for illustration */
+	background-color: #fffff0;
+	border: 1px solid;
+	color: #000;
+	float: right;
+	padding: 2em;
+	width: 68%;
+}
+
+/* nav, to the left */
+div#nav {
+/*	background: transparent; */
+	background-color: #dcdcdc;
+	border: 1px solid;
+	color: #000;
+	margin-right: 77%;
+	top: 5em;
+}
+#nav p {
+	font-size: 120%;
+	margin: 0 0 0 0.25em;
+}
+#nav ul {
+	margin-top: 0;
+}
+#nav li {
+	list-style-type: none;
+	margin-left: -2em;
+	margin-bottom: 0.35em;
+	text-align: left;
+}
+
+/* top */
+div#top {
+	background: transparent;
+/*	background-color: #d8bfd8;*/  /* thistle */
+/*	border: 1px solid;*/
+	color: #0000cd;
+	text-align: center;
+}
+
+
+/* Links must always be in the order:
+   link, visited, focus, hover, active */
+a {
+	background-color: transparent;
+	border-bottom: #8b0000 1px dashed;
+	color: #0000cd;  /* blue */
+	font-size: 100%;
+	text-decoration: none;
+}
+a:link {
+	background-color: transparent;
+	color: #0000cd;  /* blue */
+}
+a:visited {
+	background-color: transparent;
+	color: #800080; /* purple */
+}
+a.focus {
+    border-bottom: #3399cc 1px solid;
+    background-color: #ffffcc;
+	color: #3399cc;
+}
+a:hover {
+    border-bottom: #3399cc 1px solid;  /* dashed */
+    background-color: #ffffcc;
+	color: #3399cc;
+}
+a:active {
+	background-color: transparent;
+	color: #0000cd;  /* blue */
+}
+
+.counter {
+	text-align: center;
+}
+h1 {
+	font-size: 175%;
+	font-family: Georgia, serif;
+}
+h2 {
+	font-size: 140%;
+}
+
+h1, h2, h3 {
+	background: transparent;
+	margin: 0;
+	padding: 0.5em 2%;
+}
+
+.imgleft, .imgright {
+	font-size: 90%;
+	font-style: italic;
+	padding: 1em;
+/*	position: relative;*/
+	text-align: center;
+}
+.imgleft {
+	float: left;
+}
+.imgright {
+	float: right;
+}
+p {
+	margin: 0;
+	padding: 0.5em 2%; 
+}
+
+.txtsmall {
+	font-size: 80%;
+}
